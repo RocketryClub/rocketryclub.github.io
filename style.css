@@ -1,0 +1,127 @@
+body{
+    background-image: url(435269.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+/************************************************/
+.bluelogo{
+    display: flex;
+    height: 90px;
+    width: 300px;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+/************************************************/
+.butconparent{
+    position: absolute;
+}
+.buttoncontainer{
+    display: flex;
+    position: relative;
+    align-items:  start;
+    justify-content: flex-end;
+    bottom: 70px;
+    left: 1325px;
+    padding-right: 20px;
+}
+
+.but1{
+   position: relative;
+   border: none; 
+   font-size: 20px;
+   background-color: transparent;
+   color: white;
+   padding-right: 15px;
+   margin-right: 15px;
+   right: 20px;
+   cursor: pointer;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 500;
+   transition: transform 0.3s ease 0.2s;
+}
+
+.but1:hover{
+    transform: translateY(-10px);
+}
+/************************************************/
+.but2{
+   position: relative;
+   border: none;
+   background-color: rgb(44, 44, 235);
+   color: white;
+   height: 40px;
+   width: 115px;
+   bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 600;
+   right: 20px;
+   cursor: pointer;
+   transition-property: width, height;
+   transition-duration: 0.3s;
+   transition-timing-function: ease;
+   transition-delay: 0.2s;
+}
+
+.but2:hover{
+    height: 50px;
+    width: 125px;
+}
+/************************************************/
+.textcontainer{
+    position: relative;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 300px;
+    right:600px;
+    font-size: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nasatext{
+    font-weight: 600;
+    width: 720px;
+}
+
+.bluetext{
+    position:relative;
+    font-weight: 100;
+    right: 92px;
+}
+
+/************************************************/
+
+.explorebut{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-width: 2px;
+    top: 320px;
+    width: 125px;
+    left: 200px;
+    height: 60px;
+    align-items: center;
+    font-weight: lighter;
+    padding:20px;
+    cursor:pointer;
+    transition-property: border-color, font-size;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.explorebut:hover{
+    border-color: transparent;
+    font-size: 22px;
+}
+/************************************************/
